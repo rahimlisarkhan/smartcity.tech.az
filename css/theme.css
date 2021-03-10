@@ -261,7 +261,7 @@ cite {
 	z-index: 15;
 	font-size: 18px;
 	font-weight: 400;
-	color: #fff;
+    color: #fff;
 }
 
 #home-slider .caption h1 {
@@ -1082,7 +1082,10 @@ li:last-child {
 	background-image: url("../images/partners-bg.jpg");
 }
 
-
+.wrapper-partners {
+    display:flex;
+    align-items: center;
+}
 .wrapper-partners img{
     width:50%;
     height:auto;
