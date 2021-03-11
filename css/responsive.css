@@ -21,6 +21,7 @@
 	@media (min-width: 768px) and (max-width: 979px) {
 
 		/* Home Slider */
+	
 		#home-slider .caption h1 {
 			font-size: 60px;
 		}
@@ -28,7 +29,7 @@
 		#home-slider .caption p {
 			font-size: 35px;
 		}	
-			
+	
 		/* Navagation*/
 		.navbar-header {
 			float: none;
@@ -204,8 +205,25 @@
 	@media (max-width: 480px) {	
 		
 		/* Home Slider */
+		#home-slider .caption  {
+			top: 55%;
+	margin-top: -54px;
+		}
+				
+		#home-slider .caption img {
+			width: 70% !important;
+			position: absolute;
+			top: -140% !important;
+			opacity: .7;
+			height: auto;
+		}
+		.caption-info{
+		align-items: center;
+		}
+
 		#home-slider .caption h1 {
 			font-size: 40px;
+			text-align: center;
 		}
 		#home-slider .caption {
 			font-size: 15px;
@@ -233,10 +251,12 @@
 			margin: 0 auto;
 			width: 100%;
 		}
-		
+		.wrapper-partners h1{
+			font-size:25px;
+		}
 		/* Price */
 		.wrapper-pricing .col-md-3{
-			margin: 0 auto 20px;
+			margin: 0 auto 10px;
 			width: 100%;
 		}
 	

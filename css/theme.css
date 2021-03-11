@@ -248,20 +248,30 @@ cite {
 #home-slider {
   overflow: hidden;
   position: relative;
+
 }
 
 #home-slider .caption {
 	position: absolute;
-	top: 50%;
-	margin-top: -104px;
-	left: 0;
+	top: 30%;
+	margin-top: -154px;
+    left: 0;
+    width: 100%;
 	right: 0;
 	text-align: center;
 	text-transform: uppercase;
-	z-index: 15;
+    z-index: 15;
+    display:flex;
+    justify-content: space-evenly;
 	font-size: 18px;
 	font-weight: 400;
     color: #fff;
+}
+
+.caption-info{
+    display: flex;
+    flex-direction: column;
+align-items: flex-start;
 }
 
 #home-slider .caption h1 {
@@ -269,7 +279,10 @@ cite {
     color: #fff;
 	font-weight: 700;
     font-size: 100px;
-    margin-bottom: 30px;
+    text-align: left;
+    font-size: 13vh;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 #home-slider .caption p {
@@ -279,6 +292,10 @@ cite {
 	padding-bottom: 40px;
 }
 
+#home-slider .caption img{
+    width: 35% !important;
+    height: auto;
+}
 
 .carousel-fade .carousel-inner .item {
 	opacity: 0;
@@ -1087,9 +1104,13 @@ li:last-child {
     align-items: center;
 }
 .wrapper-partners img{
-    width:50%;
+    width:70%;
     height:auto;
     filter: brightness(0) invert(1);
+}
+.wrapper-partners h1{
+  color:white;
+  font-size:5vh;
 }
 
 .wrapper-block-partners{
