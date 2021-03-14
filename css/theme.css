@@ -280,9 +280,8 @@ cite {
 	font-family: 'Open Sans Condensed', sans-serif;
     color: #fff;
 	font-weight: 700;
-    font-size: 100px;
     text-align: left;
-    font-size: 13vh;
+    font-size: 10vh;
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -515,7 +514,7 @@ cite {
 
 .section-title-wrapper {
 	background-color: #f7f7f7;
-	padding: 50px 0;
+    padding: 50px 0;
 }
 
 .section-title h1 span{
@@ -528,9 +527,16 @@ cite {
 }
 
 .section-title h3 {
-	font-size: 24px;
+    font-size: 24px;
+    margin:4rem 0 ;
 	padding-top: 20px;
 	text-transform: uppercase;	
+}
+
+.section-title h4 {
+    margin: 2rem 0;
+    line-height: 1.5 !important;
+
 }
 
 .element-title h1 {

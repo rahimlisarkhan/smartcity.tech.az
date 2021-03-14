@@ -9,7 +9,14 @@
 		{
 			width: 25%;
 		}	
-		
+			/* Home Slider */
+			#home-slider{
+				height:650px;
+			}
+		#home-slider .caption h1 {
+			font-size: 60px;
+		}
+
 		.img-holder:hover .overlay-content{
 			top: 20%;
 		}
@@ -226,14 +233,10 @@
 		}
 
 		#home-slider .caption h1 {
-			font-size: 50px;
+			font-size: 40px !important;
 			text-align: center;
 		}
 		
-		#home-slider .caption h1 {
-			font-size: 50px;
-			text-align: center;
-		}
 		#home-slider .caption p {
 			font-size: 25px;
 		}
